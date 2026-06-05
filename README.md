@@ -25,3 +25,11 @@ This will create:
 - A prisma directory with a schema.prisma file.
 - A prisma.config.ts file for configuring Prisma.
 - A .env file containing a local DATABASE_URL at the project root.
+
+The app/generated/prisma output directory for the generated Prisma Client will be created when you run prisma generate or prisma migrate dev in a later step.
+
+###
+```bash
+npx create-db
+```
+---
