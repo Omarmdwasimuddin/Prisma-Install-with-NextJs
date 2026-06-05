@@ -33,6 +33,7 @@ The app/generated/prisma output directory for the generated Prisma Client will b
 npx create-db
 ```
 ---
+![](https://imgur.com/QTFm05H.png)
 
 ### Run migrations and generate Prisma Client
 ```bash
@@ -40,3 +41,10 @@ npx prisma migrate dev --name init
 npx prisma generate
 ```
 ---
+
+### check koro database e table create hoiche kina
+```bash
+npx prisma studio
+```
+---
+![](https://imgur.com/ZycYnKw.png)
