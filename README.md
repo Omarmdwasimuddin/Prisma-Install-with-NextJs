@@ -1,1 +1,15 @@
-# Prisma-Install-with-NextJs
+## Prisma-Install-with-NextJs
+
+### Nextjs Installation
+```bash
+npx create-next-app@latest prisma-schema
+cd prisma-schema
+```
+---
+
+### Prisma Installation
+```bash
+npm install prisma tsx @types/pg --save-dev
+npm install @prisma/client @prisma/adapter-pg dotenv pg
+```
+---
