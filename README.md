@@ -7,7 +7,7 @@ cd prisma-schema
 ```
 ---
 
-### Prisma Installation
+### Prisma Install dependencies
 ```bash
 npm install prisma tsx @types/pg --save-dev
 npm install @prisma/client @prisma/adapter-pg dotenv pg
